@@ -2,21 +2,16 @@
 
 A clean and simple login/register system using **PHP**, **MySQL**, and **Bootstrap 5**. This project is ideal for beginners who want to learn how authentication works in a procedural PHP environment.
 
----
-
-## 📸 Preview
-
-| Register Page | Login Page | Dashboard |
-|---------------|------------|-----------|
-| ![Register](screenshots/register.png) | ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) |
-
-> (📌 *Add screenshots to a `/screenshots` folder to display them properly*)
-
----
 
 ## 📁 Folder Structure
 ```bash
-login-register/ ├── config.php # Session init + DB include ├── db.php # PDO database connection ├── index.php # Login form & login logic ├── register.php # Registration form & logic ├── dashboard.php # Protected page for logged-in users ├── logout.php # Destroys session & logs out user └── assets/ # Custom CSS or assets (optional)
+login-register/ ├── config.php # Session init + DB include
+├── db.php # PDO database connection
+├── index.php # Login form & login logic
+├── register.php # Registration form & logic
+├── dashboard.php # Protected page for logged-in users
+├── logout.php # Destroys session & logs out user
+├── assets/ # Custom CSS or assets (optional)
  ```
 
    ## 🚀 Features
